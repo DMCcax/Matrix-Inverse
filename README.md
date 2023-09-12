@@ -5,12 +5,13 @@ Several ways to find the inverse of a matrix
 
 参与比较的方法有：高斯消元法、LU、LUP分解、QR分解以及Cholesky分解；
 
-"test.py"文件用于测试以上方法的时间并排序，比较的基准为numpy的求逆方法。
 
 
 在测试矩阵为80*80的对称矩阵，运行1000次求平均值的条件下，Cholesky最快，为基准的9%左右，其次是LU（11%）、LUP（13%）、QR（27%），最后是高斯消元法（2到3倍）。
 
+"Is_positive_matrix.py"用于判断矩阵是否正定；
 
+"test.py"文件用于测试以上算法的执行时间并排序，比较的基准为numpy.linalg.inv()方法
 
 各个方法的限制：
 
