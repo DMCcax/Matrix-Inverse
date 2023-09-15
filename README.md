@@ -5,4 +5,4 @@ Several ways to find the inverse of a matrix
 
 ![image](https://github.com/DMCcax/Matrix-Inverse/assets/44363549/a2afd6b7-b4a2-4f67-8997-632c59f3be09)
 
-可见，所有算法时间都大幅增加，Cholesky的优势更加突出———比其他算法快##3倍左右
+可见，所有算法时间都大幅增加，Cholesky的优势更加突出———比其他算法快3倍左右
